@@ -29,7 +29,11 @@
     "LICENSE"
   ],
   "dependencies": {
-    "webdriverio": "^7.16.13"
+    "@colors/colors": "^1.5.0",
+    "chalk": "^5.0.0",
+    "commander": "^9.0.0",
+    "webdriverio": "^7.16.13",
+    "yaml": "^1.10.2"
   },
   "scripts": {
     "clean": "rm -rf package-lock.json && rm -rf node_modules && npm install",

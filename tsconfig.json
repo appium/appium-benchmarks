@@ -11,7 +11,7 @@
         "moduleResolution": "Node",
         "module": "CommonJS",
         "target": "ES2021",
-        "lib": ["ES2021"],
+        "lib": ["ES2021", "dom"],
         "types": ["node", "mocha", "webdriverio/async"]
     },
     "watchOptions": {
